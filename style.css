@@ -75,7 +75,7 @@ button { font: inherit; }
 .cover-image {
   position: absolute;
   inset: 0;
-  background-image: url("/assets/cover.jpg");
+  background-image: url("assets/cover.jpg");
   background-size: cover;
   background-position: center top;
   transform: scale(1.01);
