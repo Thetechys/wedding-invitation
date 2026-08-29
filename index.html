@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#f7ead5" />
+  <meta name="description" content="廖勇翔 & 蔡美林 訂立婚約請柬" />
+  <title>廖勇翔 & 蔡美林｜請柬</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="invitation-shell">
+    <div class="ambient ambient-1">✦</div>
+    <div class="ambient ambient-2">♡</div>
+    <div class="ambient ambient-3">✧</div>
+
+    <section class="book" aria-label="電子請柬">
+      <!-- PAGE 1 -->
+      <article class="page page-cover" id="pageCover">
+        <div class="cover-image"></div>
+        <div class="cover-fade"></div>
+
+        <div class="cover-content">
+          <p class="cover-kicker">A SPECIAL INVITATION</p>
+          <button class="open-btn" id="openBtn" type="button">
+            <span>開啟請柬</span>
+            <small>OPEN INVITATION</small>
+          </button>
+          <p class="swipe-hint">輕觸開啟 · 或向左滑動</p>
+        </div>
+      </article>
+
+      <!-- PAGE 2 -->
+      <article class="page page-details" id="pageDetails">
+        <div class="paper-border"></div>
+
+        <header class="details-header">
+          <div class="doves">🕊️ <span>♡</span> 🕊️</div>
+          <h1>訂立婚約</h1>
+          <p>INVITATION</p>
+        </header>
+
+        <div class="quote">
+          <p>我們決定做對方最好的朋友</p>
+          <p>最有力量的伴侶</p>
+          <p>我們決定在乎對方的一切</p>
+          <p>見證彼此有且僅有一次的人生</p>
+        </div>
+
+        <div class="divider"><span>♡</span></div>
+
+        <section class="event-card">
+          <div class="event-row">
+            <span class="event-icon">📅</span>
+            <div>
+              <label>日期</label>
+              <strong>2026 年 10 月 01 日</strong>
+              <small>星期四</small>
+            </div>
+          </div>
+
+          <div class="event-row">
+            <span class="event-icon">🕚</span>
+            <div>
+              <label>時間</label>
+              <strong>11:00 AM</strong>
+            </div>
+          </div>
+
+          <div class="event-row">
+            <span class="event-icon">👩🏻‍❤️‍👨🏻</span>
+            <div>
+              <label>姓名</label>
+              <strong>廖勇翔 <em>&amp;</em> 蔡美林</strong>
+            </div>
+          </div>
+
+          <div class="event-row">
+            <span class="event-icon">📍</span>
+            <div>
+              <label>地點</label>
+              <strong>古來德教會紫霞閣</strong>
+            </div>
+          </div>
+        </section>
+
+        <div class="actions">
+          <button class="action-btn" id="mapBtn" type="button">
+            <span>📍</span> 導航到會場
+          </button>
+          <button class="action-btn" id="calendarBtn" type="button">
+            <span>📅</span> 加入日曆
+          </button>
+        </div>
+
+        <section class="countdown">
+          <p>距離我們的重要日子</p>
+          <div class="count-grid">
+            <div><strong id="days">--</strong><span>DAYS</span></div>
+            <div><strong id="hours">--</strong><span>HOURS</span></div>
+            <div><strong id="minutes">--</strong><span>MINUTES</span></div>
+            <div><strong id="seconds">--</strong><span>SECONDS</span></div>
+          </div>
+        </section>
+
+        <section class="rsvp">
+          <div class="rsvp-title">
+            <span>♡</span>
+            <h2>誠摯邀請您</h2>
+            <span>♡</span>
+          </div>
+          <p>您的到來，會讓這一天更加完整。</p>
+
+          <div class="rsvp-buttons">
+            <button class="rsvp-btn yes" id="yesBtn" type="button">❤️ 我會出席</button>
+            <button class="rsvp-btn no" id="noBtn" type="button">很遺憾無法出席</button>
+          </div>
+        </section>
+
+        <footer>
+          <p>期待與您一起見證這重要的一刻</p>
+          <span>廖勇翔 &amp; 蔡美林</span>
+        </footer>
+
+        <button class="back-btn" id="backBtn" type="button" aria-label="返回封面">‹</button>
+      </article>
+    </section>
+  </main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
